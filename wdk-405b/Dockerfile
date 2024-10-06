@@ -24,10 +24,10 @@ ENV BOX32_ENABLE=1
 ENV BOX64_ENABLE=1
 
 # Install mingw-w64 for non-VC
-RUN apk add --no-cache mingw-w64
+# RUN apk add --no-cache mingw-w64
 
 # Install Python using Wine
-RUN wine python-3.9.5.exe
+# RUN wine python-3.9.5.exe
 
 # Install Vim and Git
 RUN apk add --no-cache vim git
